@@ -225,3 +225,31 @@ select{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .email-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .email-box button {
+    width: 100%;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    margin-top: 100px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
